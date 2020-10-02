@@ -1,0 +1,136 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Etiquetas de texto</title>
+	</head>
+	<body bgcolor="gray">
+		<h1>Desmostración del uso de etiquetas de texto en HTML</h1>
+		En esta practica mostraremos el uso de etiquetas de texto que se ocupa en el lenguaje de programación web (HTML), y como se ve en esta pagina.
+
+		<br>
+		<br>
+
+		<p>Como su nombre lo indican, las etiquetas para texto permiten modificar la apariencia que tendrá un bloque de texto al interior de la página.  Se puede afectar todo un párrafo, una línea, una palabra, caracteres individuales, simplemente encerrando el respectivo texto dentro de las etiquetas apropiadas.  Algunos atributos de texto pueden ser controlados por etiquetas diferentes obteniendo resultados similares.</p>
+
+		<br>
+		<br>
+
+		<font face="Verdana" size="3" >ETIQUETA &lt;HX&gt; &lt;/HX&gt;</font>
+		<br>
+		<br>
+		<p>Esta etiqueta conocida como etiqueta de encabezado (heading), es utilizada para escribir títulos y subtítulos, dado que puede mostrar texto en negrillas con seis tamaños diferentes, dependiendo del valor que se asigne a X. Para poder ver la forma en que trabaja, digite el siguiente texto:</p>
+		<br>
+
+		<h1> Este texto tiene el tamaño determinado por la etiqueta H1 </h1>
+		<br>
+		<h2> Este texto tiene el tamaño determinado por la etiqueta H2 </h2>
+		<br>
+		<h3> Este texto tiene el tamaño determinado por la etiqueta H3 </h3>
+		<br>
+		<h4> Este texto tiene el tamaño determinado por la etiqueta H4 </h4>
+		<br>
+		<h5> Este texto tiene el tamaño determinado por la etiqueta H5 </h5>
+		<br>
+		<h6> Este texto tiene el tamaño determinado por la etiqueta H6 </h6>
+		<br>
+		<br>
+		<p size="3" >Después de haber guardado el archivo, ábralo con el explorador y analice los resultados.</p>
+		<br>
+		<font size="3" >La etiqueta <HX> tiene otro atributo que permite controlar la alineación. El texto puede ser alineado al centro (align="center"), a la derecha (align="right"), a la izquierda por defecto o justificado align="justify")</font>
+	    <br>
+		Escriba por ejemplo:
+		<br>
+		<h1 align="center"> Este texto tiene la etiqueta h1</h1>
+		<br>
+		<font size="3">El resultado será Este texto alineado al centro de la página.  en forma similar, para obtener el mismo texto alineado a la derecha, escriba la siguiente instrucción:</font>
+		<br>
+		<h1 align="right"> Este texto </h1>
+		<br>
+		<font size="3">Cuando la sintaxis utilizada en una etiqueta no es la correcta, el navegador no genera un error ni una advertencia.  Simplemente, se obtendrán resultados inesperados.  Trate de escribir la siguiente línea en la que intencionalmente se escribe un error y observe los resultados: </font>
+		<br>
+		<h1 aling="right"> Este texto no será alineado a la derecha </h1>
+		<br>
+		<h1 aling="centry"> Este texto no será centrado </h1>
+		<br>
+		<font size="3">ETIQUETA &lt;FONT&gt; &lt;/FONT&gt;. </font>
+		<br>
+		<br>
+		<p>Esta etiqueta permite controlar tres atributos del texto que se encuentra encerrado entre ellas: Tamaño (SIZE), el color de letra (COLOR) y el tipo de letra (FACE).  A manera de ejemplo, puede verificarse que las siguientes líneas escritas dentro del cuerpo de un documento HTML, mostrarán texto con cuatro tamaños de letra diferentes:</p>
+		<br>
+		<FONT SIZE="+1"> Este texto tiene tamaño +1</FONT>
+		<br>
+		<FONT SIZE="+2"> Este texto tiene tamaño +2</FONT>
+		<br>
+		<FONT SIZE="-1"> Este texto tiene tamaño -1</FONT>
+		<br>
+		<FONT SIZE="-2"> Este texto tiene tamaño -2</FONT>
+		<br>
+		<p>La sintaxis completa de la etiqueta &lt;FONT&gt; es la siguiente:</p>
+		<FONT SIZE="X" COLOR="color"  FACE="Nombre de la Fuente"> Texto que se desea mostrar</FONT>
+		<br>
+		Donde sucede lo siguiente:
+		<center>
+		<br>
+		X    	Corresponde al tamaño de la fuente que, como ya se vio en el ejercicio anterior, admite valores positivos y negativos.
+		<br>
+		<p>color    	Puede ser un valor hexadecimal o el nombre inglés de un color específico. Aunque teóricamente existen 16 millones de colores, existen 16 de ellos que  conforman lo que llamaremos la paleta segura para garantizar que las páginas podrán ser vistas tal como han sido diseñadas en un monitor con baja resolución. La tabla que sigue muestra los código hexadecimales y los nombres de los 16 colores en mención.</p>
+		<br>
+		<p>Nombre de la Fuente    	Es el atributo correspondiente a los tipos de letras disponibles en el sistema de computador utilizado y pueden ser Arial, Helvetica, Times New Roman, Broadway, Bodoni MT, Ms Sans Serif, etc</p>
+		</center>
+		<center>
+			<img src="PALETASEGURA.jpg" alt="paleta segura">
+		</center>
+		<br>
+		Ejercicio de práctica:
+		<br>
+		Escribir las siguientes líneas dentro del cuerpo de una nueva página
+		<br>
+		<FONT SIZE="+3" COLOR="maroon"  FACE="Lucida Calligraphy">Nombre de la Institución</FONT>
+		<br>
+		<FONT SIZE="+1" COLOR="purple"  FACE="Verdana">Nombre del Estudiante</FONT>
+		<br>
+		<FONT SIZE="-1" COLOR="gray"  FACE="Monotype Corsiva">Curso</FONT>
+		<br>
+		<FONT SIZE="+3" COLOR="maroon"  FACE="Comic Sans MS">Fecha</FONT>
+		<br>
+		<font face="Verdana" size="3" color="#3333CC">ETIQUETA &lt;PRE&gt; &lt;/PRE&gt;</font>
+		<br>
+		<p>El lenguaje HTML solamente puede reconocer y mostrar un espacio en blanco entre palabras, independientemente de cuántos se escriban. Tampoco reconoce saltos de línea ni tabuladores, lo que significa que si se introduce el siguiente texto:</p>
+		<br>
+
+
+        <p>  El      presente
+
+                                            bloque                          de    texto           tiene
+
+incorporados                        varios espacios                    entre palabras,        tabuladores
+
+         y saltos           de línea</p>
+
+         <font>Si lo que se desea es que el texto sea visualizado tal como ha sido escrito, debe ser delimitado con la etiqueta &lt;PRE&gt; y &lt;/PRE&gt; que indica al navegador que el texto es preformateado</font>
+         <br>
+
+         <font size="3">ETIQUETA &lt;BR&gt; </font>
+
+     	<p>Esta etiqueta permite forzar un salto de línea.  Puede observarse que no se está utilizando la etiqueta de cierre &lt;/BR&gt;, pues es considerada una etiqueta abierta. </p>
+
+     	<p>ETIQUETA &lt;P&gt;  &lt;/P&gt; </p>
+
+     	<p>En forma equivalente a la etiqueta &lt;BR&gt;, puede utilizarse la etiqueta &lt;P&gt; que puede ser utilizada como etiqueta abierta o cerrada.  La apertura indica el inicio de un nuevo párrafo en tanto que &lt;/P&gt;  indica al navegador que ha terminado dicho párrafo.  Si se utiliza como etiqueta abierta, se mostrará una línea en blanco antes de iniciar el párrafo correspondiente. Por el contrario, si se utiliza como etiqueta cerrada, se iniciará un nuevo párrafo, pero sin dejar líneas en blanco previas. Por defecto, un párrafo delimitado con la etiqueta  &lt;P&gt;  &lt;/P&gt; se muestra alineado a la izquierda, situación que puede ser modificada utilizando la etiqueta anidada &lt;ALIGN&gt; según se indica en la siguiente tabla</p>
+
+     	<center>
+     		<img src="tabla.jpg" alt="tabla">
+     	</center>
+     	<br>
+     	<p> ETIQUETA &lt;HR&gt; </p>
+     	<br>
+     	<p>La etiqueta &lt;HR&gt; (Horizontal Rule) también de tipo abierto, permite dibujar una línea horizontal con tamaño, espesor y alineación modificables.  suele utilizarse para separar contenidos.</p>
+
+     	<center>
+     		<font size="10"> Otras Etiquetas</font>
+     		<br>
+     		<img src="tabla2.jpg" alt="tabla 2">
+     	</center>
+
+     </body>
+</html>
